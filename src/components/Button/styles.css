@@ -12,4 +12,16 @@
 
 
 
+
+    border-radius: 4px;
+}
+
+.primary-button{
+    background: blue;
+
+}
+.secondary-button{
+    background: rgb(225, 216, 40);
+
+
 }
