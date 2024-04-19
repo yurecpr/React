@@ -1,11 +1,12 @@
-import Card from "../../components/ProfileCard/Card/Card";
+import ProfileCard from "../../components/ProfileCard/Card/ProfileCard";
+import "./styles.css";
 
-function Homework02() {
+function Homework02(props) {
   return (
-    <div className="main-card" >
-      <Card />
-      <Card />
-      <Card />
+    <div >
+      <ProfileCard  />
+      <ProfileCard />
+      <ProfileCard />
     </div>
   )
 }
